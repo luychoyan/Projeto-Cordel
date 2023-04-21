@@ -10,13 +10,20 @@
 body{
     min-height: 100vh;
     background-color: aqua;
-    font-family: 'Sigmar', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 header{
     
-    background-color: black;
-    color: white;
+    background-image: url('imagens/letter-447577.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+
+    box-shadow: inset 2px -10px 20px rgba(0, 0, 0, 0.48);
+    color: rgb(10, 10, 10);
+
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -49,23 +56,46 @@ section{
     line-height: 2em;
     padding-left: 35px;
 }
+section > p{
+    
+    padding: 30px;
+}
 
 section.normal{
     background-color: aliceblue;
 }
 
 section.imagem{
-    
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.492);
+    color: aliceblue;
     background-color: blueviolet;
 }
 
 section.imagem > p{
     
-    background-color: gray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.48);
+    max-width: 550px;
+    background-color: rgba(0, 0, 0, 0.43);
     padding: 10px;
 }
 
+section#img1{
+    background-image:url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
 footer{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
     color: white;
     padding: 10px;
